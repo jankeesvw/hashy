@@ -1,14 +1,15 @@
 {
   "name": "hashy",
   "main": "./lib/hashy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert Ruby 1.8 hash style",
-  "activationEvents": ["hashy:convert"],
+  "activationEvents": [
+    "hashy:convert"
+  ],
   "repository": "https://github.com/jankeesvw/hashy",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
