@@ -1,0 +1,15 @@
+'context-menu':
+  '.overlayer':
+      'Convert hashes': 'hashy:convert'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'hashy'
+      'submenu': [
+        { 'label': 'Convert selection', 'command': 'hashy:convert' }
+      ]
+    ]
+  }
+]
