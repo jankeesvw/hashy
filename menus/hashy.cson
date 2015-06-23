@@ -1,6 +1,7 @@
 'context-menu':
-  '.overlayer':
-      'Convert hashes': 'hashy:convert'
+  '.overlayer': [
+    { 'label': 'Convert hashes', 'command': 'hashy:convert' }
+  ]
 
 'menu': [
   {
