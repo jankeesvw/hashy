@@ -1,10 +1,12 @@
 {
   "name": "hashy",
   "main": "./lib/hashy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert Ruby 1.8 hash style",
   "activationCommands": {
-    "atom-workspace": ["hashy:convert"]
+    "atom-workspace": [
+      "hashy:convert"
+    ]
   },
   "repository": "https://github.com/jankeesvw/hashy",
   "license": "MIT",
